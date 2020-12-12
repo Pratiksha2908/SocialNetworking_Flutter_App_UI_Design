@@ -144,14 +144,6 @@ class _SearchPageState extends State<SearchPage> {
               return GridTile(
                   child: Image.network(url, fit: BoxFit.cover));
             }).toList()),
-            // children: [
-            //   Expanded(child: Image.asset('images/family.jpg')),
-            //   Expanded(child: Image.asset('images/life.jpg')),
-            //   Expanded(child: Image.asset('images/p.jpeg')),
-            //   Expanded(child: Image.asset('images/street.jpg')),
-            //   Expanded(child: Image.asset('images/wings.jpg')),
-            //   Expanded(child: Image.asset('images/world.jpg')),
-            // ],
           ),
     );
   }
